@@ -1,0 +1,29 @@
+{
+  "name": "vue3-clamp",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bunx vite"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/highlight.js": "^10.1.0",
+    "@types/qs": "^6.9.8",
+    "@vitejs/plugin-vue": "^4.4.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.2",
+    "highlight.js": "^11.9.0",
+    "qs": "^6.11.2",
+    "resize-detector-typescript": "^0.0.1-alpha.4.1",
+    "spectre.css": "^0.5.9",
+    "stylus": "^0.60.0",
+    "unplugin-vue-macros": "^2.6.1",
+    "vite": "^4.4.11",
+    "vue": "^3.3.4",
+    "vue-tsc": "^1.8.19"
+  }
+}

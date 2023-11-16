@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": ["ESNext"],
+    "skipLibCheck": true,
+
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "moduleDetection": "force",
+
+    "strict": true,
+    "downlevelIteration": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": true,
+    "types": [
+      "bun-types" // add Bun global
+    ],
+    "composite": true
+  },
+  "include": [
+    "src/**/*.js",
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue"
+  ],
+  "references": [{ "path": "./tsconfig.node.json" }]
+  // "vueCompilerOptions": {
+  //   "plugins": [
+  //     "@vue-macros/volar/export-render",
+  //     "@vue-macros/volar/export-expose",
+  //     "@vue-macros/volar/export-props",
+  //     "@vue-macros/volar/jsx-directive",
+  //     "@vue-macros/volar/define-models",
+  //     "@vue-macros/volar/define-props",
+  //     "@vue-macros/volar/define-props-refs",
+  //     "@vue-macros/volar/short-vmodel"
+  //   ],
+  //   "vueMacros": {
+  //     "shortVmodel": {
+  //       "prefix": "::"
+  //     }
+  //   }
+  // }
+}
